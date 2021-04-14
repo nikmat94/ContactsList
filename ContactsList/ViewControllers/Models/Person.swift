@@ -24,19 +24,13 @@ extension Person {
    
     static func getPerson() -> [Person] {
         var persons: [Person] = []
-        var newNames: [String] {
-            return data.names.shuffled()
-        }
-        var newSecondNames: [String] {
-            return data.secondNames.shuffled()
-        }
-        var newPhoneNumber: [String] {
-            return data.phoneNumbers.shuffled()
-        }
-        var newEmails: [String] {
-            return data.emails.shuffled()
-        }
-        for index in 0...data.names.count {
+        
+        let newNames: [String] = data.names.shuffled()
+        let newSecondNames: [String] = data.secondNames.shuffled()
+        let newPhoneNumber: [String] = data.phoneNumbers.shuffled()
+        let newEmails: [String] = data.emails.shuffled()
+
+        for index in 0..<data.names.count {
             persons.append(Person(name: newNames[index], secondName: newSecondNames[index], phoneNumber: newPhoneNumber[index], email: newEmails[index]))
         }
         return persons

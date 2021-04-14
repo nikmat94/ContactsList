@@ -16,6 +16,7 @@
 		5E7614A92626256000DC2574 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7614A82626256000DC2574 /* Person.swift */; };
 		5E7614AE2626297500DC2574 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7614AD2626297500DC2574 /* DataManager.swift */; };
 		5E7614B52626511900DC2574 /* ShortContactsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7614B42626511900DC2574 /* ShortContactsListViewController.swift */; };
+		5E7614B9262701DA00DC2574 /* DetailedInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7614B8262701DA00DC2574 /* DetailedInformationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		5E7614A82626256000DC2574 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		5E7614AD2626297500DC2574 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		5E7614B42626511900DC2574 /* ShortContactsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortContactsListViewController.swift; sourceTree = "<group>"; };
+		5E7614B8262701DA00DC2574 /* DetailedInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedInformationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				5E7614B42626511900DC2574 /* ShortContactsListViewController.swift */,
+				5E7614B8262701DA00DC2574 /* DetailedInformationViewController.swift */,
 				5E7614902626222000DC2574 /* ViewController.swift */,
 				5E7614AB2626256700DC2574 /* Models */,
 			);
@@ -192,6 +195,7 @@
 				5E76148D2626222000DC2574 /* AppDelegate.swift in Sources */,
 				5E7614A92626256000DC2574 /* Person.swift in Sources */,
 				5E76148F2626222000DC2574 /* SceneDelegate.swift in Sources */,
+				5E7614B9262701DA00DC2574 /* DetailedInformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
